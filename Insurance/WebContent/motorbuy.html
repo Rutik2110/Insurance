@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motor Buy</title>
+    <link rel="stylesheet" href="motorcss.css">
+
+</head>
+<body>
+    <div class="container">
+        
+            <div class="form">
+                <form action="Connector" method="post">
+                    
+                    <!-- <p>About Your Vehical</p> -->
+                    <table>
+                    	<tr><td colspan="4"><p class="title" style="text-align: center">Motor Policy</p></td></td><td></tr>
+
+                      <tr><td colspan="2">
+            <label for="start">Full Name</label></td><td></td><td>
+            <input type="text" id="name" name="name" ></td>
+            </tr>
+                    	<tr><td colspan="3">
+						<label class="label" for="vehi">Vehicle registered in the name of an:</label></td>
+						<td>
+						<select name="vehi" id="vehi">
+  						<option value="Individual">Individual</option>
+  						<option value="Corporate">Corporate</option>
+					  		
+							</select></td>
+						</tr>
+						<tr><td colspan="3">
+						<label class="label" for="vehi">Name Or Renewal Policy:</label></td>
+						<td>
+						<select name="rp" id="vehi">
+  						<option value="New Vechicle Policy">New Vechicle Policy</option>
+  						<option value="Other">Other</option>
+  		
+						</select></td></tr>
+						<tr><td colspan="4">
+						<p class="title" style="text-align: center">About Your Vehical</p></td></tr>
+
+
+					<tr>
+                      <td colspan="3"><label class="label">Vehicle Registration State*</label> </td><td>
+                      	<select name="state" id="state">
+                      	<option value="Select">Select</option>
+  						<option value="Chhattisgarh">Chhattisgarh</option>
+  						<option value="Goa">Goa</option>
+  						<option value="MP">MP</option>
+  						<option value="UP">UP</option>
+						</select>
+                      </td>
+                  </tr>
+                  <tr>
+                       <td><label class="label"> Vehicle Class</label></td> <td></td><td></td>
+                       <td>
+                       	<select name="vc" id="vehi">
+                       	<option value="vehi">Select</option>
+  						<option value="Individual">Motorcycle</option>
+  						<option value="Corporate">Private Car</option>
+  		
+						</select>
+                       </td>
+                    </tr>
+
+                    <tr>
+                    	<td><label class="label">Model</label></td><td></td><td></td><td>
+                       	<select name="model" id="model">
+                       	<option value="Select">Select</option>
+  						<option value="STILE(2013)">STILE(2013)</option>
+  						<option value="STILE(2015)">STILE(2015)</option>
+  						<option value="STILE(2015)">STILE(2015)</option>
+  		
+						</select>
+                       </td><td></td>
+            		</tr><tr>
+                    	<td><label class="label">Manufacturer*</label></td><td></td><td></td><td>
+                       	<select name="manu" id="nanu">
+                       	<option value="Select">Select</option>
+  						<option value="ASTON MARTIN">ASTON MARTIN</option>
+  						<option value="AUDI">AUDI</option>
+  						<option value="BMW">BMW</option>
+  						<option value="DATSUN">DATSUN</option>
+						</select>
+                       </td>
+                    </tr><br>
+
+                    <tr>
+                    	<td><label class="label">Body Type*</label></td><td></td><td></td><td>
+                       	<select name="body" id="body">
+                       	<option value="Select">Select</option>
+  						<option value="open">open</option>
+  						<option value="Soft top">Soft top</option>
+  						<option value="Camper">Camper</option>
+  						<option value="Double Cab">Double Cab</option>
+  						<option value="Rigid">Rigid</option>
+  						<option value="Hatchback">Hatchback</option>
+						</select>
+                       </td>
+                    </tr>
+
+                    <tr>
+                    	<td><label class="label">Make Month*</label></td><td></td><td></td><td>
+                       	<select name="month" id="month">
+                       	<option value="Select">Select</option>
+  						<option value="Jan">Jan</option>
+  						<option value="Feb">Feb</option>
+  						<option value="Mar">Mar</option>
+  						<option value="Apr">Apr</option>
+  						<option value="May">May</option>
+  						<option value="Jun">Jun</option>
+  						<option value="July">July</option>
+  						<option value="Aug">Aug</option>
+  						<option value="Sept">Sept</option>
+  						<option value="Oct">Oct</option>
+  						<option value="Nov">Nov</option>
+  						<option value="Dec">Dec</option>
+						</select>
+                       </td>
+                    </tr>
+                     
+
+          
+                    <tr>
+                   
+                      <td colspan="2"><label class="label"> Actual Balance</label></td><td></td><td>
+                      	<input class="form-control" type="text" name="amount" placeholder="Enter Amount" required value></td>
+                    </tr>
+					 
+                        
+					 <tr>
+						 <td> <p><label class="label">Policy</label></p></td>
+						 <td colspan="3" style="text-align: right">
+						  <input type="radio" id="monthly" name="policy" value="monthly" required value>
+                          <label for="monthly" >Monthly</label>
+                          <input type="radio" id="yearly" name="policy" value="yearly">
+                          <label for="yearly" >Yearly</label>
+                      </td>
+                    </tr>
+                        
+                      <tr>
+                      <td colspan="2"><label class="label"> First Installment</label></td></td><td><td><input class="form-control" type="text" name="firstAmount" placeholder="Enter Amount" required value></td>
+                    </tr>
+					 
+                    
+					<div><td></td><td>
+                       <input class="form-control button" type="submit" name="reset" value="SUBMIT"></td>
+                    </div></tr>
+					</table>
+                    
+                </form>
+            </div>
+        
+    </div>
+    
+</body>
+</html>
